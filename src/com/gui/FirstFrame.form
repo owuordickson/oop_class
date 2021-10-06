@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.gui.FirstFrame">
+  <grid id="27dc6" binding="jplMain" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="533" height="362"/>
+    </constraints>
+    <properties>
+      <maximumSize width="500" height="500"/>
+      <minimumSize width="234" height="100"/>
+      <preferredSize width="500" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b3224" class="javax.swing.JLabel" binding="jblName">
+        <constraints/>
+        <properties>
+          <text value="Enter your name"/>
+        </properties>
+      </component>
+      <component id="fb03a" class="javax.swing.JTextField" binding="txtName">
+        <constraints/>
+        <properties>
+          <preferredSize width="100" height="30"/>
+        </properties>
+      </component>
+      <component id="ce8df" class="javax.swing.JButton" binding="btnOk">
+        <constraints/>
+        <properties>
+          <text value="Ok"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
