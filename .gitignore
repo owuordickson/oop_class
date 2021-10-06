@@ -1,3 +1,7 @@
+.idea
+out
+oop_class.iml
+
 # Compiled class file
 *.class
 
